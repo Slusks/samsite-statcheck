@@ -15,6 +15,7 @@ import { Post1Component } from './posts/post1/post1.component';
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { EditorComponent } from './editor/editor.component';
 //import { AngularFireAuthModule } from '@angular/fire/auth/';
 //import { AngularFireDatabaseModule } from '@angular/fire/database'
 //import { AngularFirestoreModule } from '@angular/fire/firestore'
@@ -31,7 +32,8 @@ import { getAnalytics } from "firebase/analytics";
     HomepageComponent,
     AboutmeComponent,
     PostsComponent,
-    Post1Component
+    Post1Component,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
