@@ -1,8 +1,8 @@
-<mat-toolbar color="primary"><!--https://www.techiediaries.com/angular-material-navigation-toolbar-sidenav/-->
+<!--<mat-toolbar color="primary"><https://www.techiediaries.com/angular-material-navigation-toolbar-sidenav/
   <mat-toolbar-row>
-    <!--<button mat-icon-button>
+    <button mat-icon-button>
       <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
-    </button>-->
+    </button>
     <h1> Sam Stat Check</h1>
     <span class="menu-spacer"></span>
     <div>
@@ -12,7 +12,15 @@
       <a mat-button [routerLink]="'/contact'" disabled> Contact </a>
     </div>
   </mat-toolbar-row>
-</mat-toolbar>
-
+</mat-toolbar>-->
+<nav class="navbar">
+  <a href="/">
+  <img src="../assets/img/Cloud9logo_profile.webp" class="logo" alt="" style="height: 25px; width: 25px;" >
+</a>
+  <ul class="links-container">
+      <li class="link-item"><a href="/" class="link">home</a></li>
+      <li class="link-item"><a href="/editor" class="link">editor</a></li>
+  </ul>
+</nav>
 
 <router-outlet></router-outlet>
