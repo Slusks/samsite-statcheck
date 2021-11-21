@@ -1,10 +1,10 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs } from 'firebase/firestore';
-import 'firebase/compat/functions'
-import 'firebase/compat/firestore'
-import 'firebase/compat/database'
-import 'firebase/firestore'
+//import { initializeApp } from "firebase/app";
+//import { getFirestore, collection, getDocs } from 'firebase/firestore';
+//import 'firebase/compat/functions'
+//import 'firebase/compat/firestore'
+//import 'firebase/compat/database'
+//import 'firebase/firestore'
 import { environment } from 'src/environments/environment.prod';
 
 
